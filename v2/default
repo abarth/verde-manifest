@@ -10,5 +10,8 @@
     <project name="busybox"
              path="busybox"
              remote="git://git.busybox.net/busybox" />
+    <project name="linux"
+             path="linux"
+             remote="git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git" />
   </projects>
 </manifest>
