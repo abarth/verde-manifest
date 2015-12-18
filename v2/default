@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest label="default">
+  <imports>
+    <import name="minimal"/>
+  </imports>
+  <projects>
+    <project name="musl"
+             path="musl"
+             remote="git://git.musl-libc.org/musl" />
+    <project name="busybox"
+             path="busybox"
+             remote="git://git.busybox.net/busybox" />
+  </projects>
+</manifest>
